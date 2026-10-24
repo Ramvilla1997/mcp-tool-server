@@ -1,0 +1,8 @@
+{
+  "store": "demo-shop",
+  "currency": "USD",
+  "orders": [
+    { "id": 1001, "customer": "Ada Labs", "total": 398.0, "status": "shipped" },
+    { "id": 1002, "customer": "Brightline Ltd", "total": 245.0, "status": "pending" }
+  ]
+}
