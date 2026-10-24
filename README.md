@@ -42,7 +42,7 @@ npm test      # 20 tests, including a full client-server round trip
 npm run demo  # calls the built server through the MCP Inspector CLI
 ```
 
-Run the server on its own with `npm start`. It speaks MCP over stdio, so it waits for a client. Copy `.env.example` to `.env` to change the sandbox directory or the file size limit.
+Run the server on its own with `npm start`. It speaks MCP over stdio, so it waits for a client. Set `SANDBOX_ROOT` and `MAX_FILE_BYTES` in the environment to change the sandbox directory or the file size limit. The values in `.env.example` are a reference; load them with `node --env-file=.env dist/index.js`.
 
 ## Connect a client
 
